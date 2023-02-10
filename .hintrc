@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scroll-behavior",
+          "backdrop-filter",
+          "aspect-ratio",
+          "width: fit-content",
+          "height: fit-content",
+          "user-select"
+        ]
+      }
+    ]
+  }
+}

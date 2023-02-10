@@ -1,0 +1,119 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    
+    
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ======================= CTA ======================== */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ================== HEADER SOCIALS ====================== */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 5rem;
+}
+
+.header__socials-increase:hover{
+    font-size: 1.1rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-white);
+}
+
+/* =================== IMAGE =============== */
+
+.me{
+    background:linear-gradient(var(--color-primary), transparent);
+    height: 22rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    border-radius: 15rem 15rem 0 0;
+    padding: 2rem 1.5rem 1.5rem .8rem;
+    
+}
+
+.image-me{
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ========================= SCROLL DOWN ==================== */
+
+.scroll__down{
+    position: absolute;
+    right: -2rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+/* =========================== MEDIA QUERY(Medium)  =====================*/
+
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+       }
+
+
+    .scroll__down{
+        position: absolute; right: -1rem;
+    }
+}
+
+/* =========================== MEDIA QUERY(Small) */
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .me{
+       width: 50vh;
+       position: absolute;
+               
+        
+    }
+    .image-me{
+       width: fit-content;
+       position: inherit; 
+
+    }
+    
+    
+   
+    .header__socials {
+        display: none;   
+    }
+    .scroll__down{
+        display: none;
+    }
+}
+    
+
