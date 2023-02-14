@@ -52,8 +52,8 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
-    border-radius: 15rem 15rem 0 0;
-    padding: 2rem 1.5rem 1.5rem .8rem;
+    border-radius: 16rem 16rem 0 0;
+    padding: 1rem 1rem 1.5rem .8rem;
     
 }
 
@@ -92,28 +92,33 @@ header {
 @media screen and (max-width: 600px){
     header{
         height: 100vh;
-    }
-
-    .me{
-       width: 50vh;
-       position: absolute;
-               
         
     }
-    .image-me{
-       width: fit-content;
-       position: inherit; 
 
+    .image-and-div{
+        position: relative;
+        object-fit: cover
+    }
+    .me{
+       background: none;
+       height: 10rem;
+       
+       position: absolute;right: -5rem;
     }
     
+    .image-me{
+       width: 500px;
+       height: 540px;
+       overflow:hidden;
+    }
     
-   
     .header__socials {
         display: none;   
     }
     .scroll__down{
         display: none;
     }
+    
 }
     
 
