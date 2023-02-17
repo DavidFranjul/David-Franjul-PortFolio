@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
-import ME1 from "../../assets/me-about1.png"
-import { FaAward } from "react-icons/fa"
-import { FiUsers } from "react-icons/fi"
-import { VscFolderLibrary } from "react-icons/vsc"
+import ME1 from "../../assets/me-about1.png";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        <div className="about__me image__container">
           <div className="about__me-image ">
             <img className="about-section-image" src={ME1} alt="" />
           </div>
@@ -37,18 +37,21 @@ const About = () => {
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </article>
-
           </div>
 
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Corrupti repudiandae iure et vitae illo quo saepe non dolores
-            ad quidem officia veritatis voluptates repellat temporibus autem
-            eligendi dolor, totam consequuntur?
+          <p>
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            repudiandae iure et vitae illo quo saepe non dolores ad quidem
+            officia veritatis voluptates repellat temporibus autem eligendi
+            dolor, totam consequuntur?
           </p>
 
-          <a href="#contact" className="btn btn-primary"> Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            {" "}
+            Let's Talk
+          </a>
         </div>
-
       </div>
     </section>
   );

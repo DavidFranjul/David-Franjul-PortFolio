@@ -9,15 +9,17 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>David Franjul</h1>
-        <h5 className="text-light">Front End Developer</h5>
-        <CTA />
-        <Headersocials />
+        <div className="header-top">
+          <h5>Hello I'm</h5>
+          <h1>David Franjul</h1>
+          <h5 className="text-light">Front End Developer</h5>
+          <CTA />
+          <Headersocials />
+        </div>
         <div className="image-and-div">
           <div className="me">
-            <div className="image-me">
-              <img src={meSMALL} alt="me" />
+            <div>
+              <img src={meSMALL} alt="me" className="image-me" />
             </div>
           </div>
         </div>

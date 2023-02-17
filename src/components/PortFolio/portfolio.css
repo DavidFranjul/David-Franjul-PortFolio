@@ -63,11 +63,12 @@
         grid-template-columns: 1fr;
         gap: 1.5rem;
         position: relative; right: 2rem;
+        
     }
 
     .portfolio__item-image{
-        width: 25rem;
-        height: 23rem;
+        width: 20rem;
+        height: 17rem;
     }
 
 

@@ -107,8 +107,15 @@ max-height: auto;
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;
-        
+            }
 
+    .image__container{
+            position: relative; right: .9rem;
+    }
+
+    .about__me-image{
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .about-section-image{
@@ -116,7 +123,7 @@ max-height: auto;
         
     }
 
-    .about__card{
+    .about__cards{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
 
