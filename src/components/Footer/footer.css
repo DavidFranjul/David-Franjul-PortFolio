@@ -4,6 +4,7 @@ footer{
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+    
 }
 
 footer a{
@@ -58,7 +59,9 @@ footer a{
 /* =================== MEDIA (MEDIUM) =================== */
 
 @media screen and (max-width:1024px) {
-
+.footer{
+    width: 56rem;
+}
     
     
 }

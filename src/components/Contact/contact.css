@@ -58,6 +58,12 @@ input, textarea{
     color: var(--color-white);  
 }
 
+.button__send{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
 
 /* =================== MEDIA (MEDIUM) =================== */
 
@@ -77,5 +83,7 @@ input, textarea{
     .container.contact__container{
         width: var(--container-width-sm);
     }
+
+   
     
 }
