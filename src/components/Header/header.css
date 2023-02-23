@@ -20,6 +20,10 @@ header {
     justify-content: center;
 }
 
+.btn-cta{
+    color: #ef0000;
+}
+
 /* ================== HEADER SOCIALS ====================== */
 
 .header__socials{
