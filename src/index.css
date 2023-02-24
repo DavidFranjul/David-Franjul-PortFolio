@@ -100,7 +100,7 @@ a:hover{
 }
 
 .btn-primary{
-    background: #4bd5ff;
+    /* background: #4bd5ff; */
     color: var(--color-bg);
     };
 

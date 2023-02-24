@@ -20,6 +20,11 @@ header {
     justify-content: center;
 }
 
+.btn-background{
+    background: var(--color-primary);
+}
+
+
 /* ================== HEADER SOCIALS ====================== */
 
 .header__socials{
