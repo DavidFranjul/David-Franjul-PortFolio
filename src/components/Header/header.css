@@ -65,7 +65,7 @@ header {
 .image-me{
 width: 25rem;
 height: auto;
-    
+    margin: auto;
 }
 
 /* ========================= SCROLL DOWN ==================== */
@@ -104,19 +104,20 @@ height: auto;
         position: relative; left: -1rem;
     }
 
-.image-and-div{
+    .image-and-div{
     position: relative;
-}
+    }
 
     .me{
         width: 22rem;
-        height: 25rem;
-        position: absolute; left: -1.2rem
+        height: 24rem;
+        position: absolute; left: -1.2rem;
     }
 
     .image-me{
         width: 20rem;
         height: auto;
+        
     }
     
     .header__socials {

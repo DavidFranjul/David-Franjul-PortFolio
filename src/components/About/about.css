@@ -1,3 +1,7 @@
+#about{
+    margin-top: .5rem;
+}
+
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
@@ -9,7 +13,9 @@ max-height: auto;
 
 }
 
-
+.btn-background{
+    background: var(--color-primary);
+}
 
 .about-section-image{
     width: 31rem;
