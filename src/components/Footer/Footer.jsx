@@ -7,10 +7,10 @@ import { FiTwitter } from "react-icons/fi";
 const Footer = () => {
   return (
     <footer>
-      // eslint-disable-next-line
       <a href="#" className="footer__logo">
         David Franjul
       </a>
+
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>
@@ -34,6 +34,7 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+
       <div className="footer__socials">
         <a href="https://facebook.com">
           <FaFacebook />
@@ -45,6 +46,7 @@ const Footer = () => {
           <FiTwitter />
         </a>
       </div>
+
       <div className="footer__copyright">
         <small>&copy; David Franjul. All rights reserved.</small>
       </div>
