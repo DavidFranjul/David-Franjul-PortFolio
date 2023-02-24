@@ -6,6 +6,8 @@
     
 }
 
+
+
 .portfolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
@@ -34,6 +36,11 @@
     gap:1rem;
     margin-bottom: 1rem;
 }
+
+.btn-background{
+    background: var(--color-primary);
+}
+
 
 
 /* ====================MEDIA QUERY(MEDIUM)=================== */
