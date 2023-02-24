@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/David-Franjul-PortFolio/static/css/main.088e54ca.css",
-    "main.js": "/David-Franjul-PortFolio/static/js/main.8bb68561.js",
+    "main.css": "/David-Franjul-PortFolio/static/css/main.a56673e2.css",
+    "main.js": "/David-Franjul-PortFolio/static/js/main.c1d328c8.js",
     "static/media/cv.pdf": "/David-Franjul-PortFolio/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/me-about1.png": "/David-Franjul-PortFolio/static/media/me-about1.eb345dcf8828930c14d3.png",
     "static/media/me-small.png": "/David-Franjul-PortFolio/static/media/me-small.9db1d242e2a9fafc6371.png",
@@ -12,11 +12,11 @@
     "static/media/portfolio3.jpg": "/David-Franjul-PortFolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/David-Franjul-PortFolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/David-Franjul-PortFolio/index.html",
-    "main.088e54ca.css.map": "/David-Franjul-PortFolio/static/css/main.088e54ca.css.map",
-    "main.8bb68561.js.map": "/David-Franjul-PortFolio/static/js/main.8bb68561.js.map"
+    "main.a56673e2.css.map": "/David-Franjul-PortFolio/static/css/main.a56673e2.css.map",
+    "main.c1d328c8.js.map": "/David-Franjul-PortFolio/static/js/main.c1d328c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.088e54ca.css",
-    "static/js/main.8bb68561.js"
+    "static/css/main.a56673e2.css",
+    "static/js/main.c1d328c8.js"
   ]
 }
