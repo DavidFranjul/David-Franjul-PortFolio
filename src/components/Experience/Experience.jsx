@@ -9,7 +9,7 @@ const Experience = () => {
 
     <div className="container experience__container">
       <div className="experience__frontend">
-        <h3>Frontend Development</h3>
+        <h3>Frontend Web-Development</h3>
 
         <div className="experience__backend experience__content">
           <article className="experience__details">
@@ -41,7 +41,7 @@ const Experience = () => {
       </div>
 
       <div className="experience__frontend ">
-        <h3>Audio Visuals</h3>
+        <h3>Post-Production</h3>
 
         <div className="experience__backend experience__content">
           <article className="experience__details">
